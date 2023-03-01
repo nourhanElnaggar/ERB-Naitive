@@ -16,10 +16,19 @@
 <body>
 
   <a href="login/index.html">login</a>
-  <h1 class="font btn btn-dark">asfsdvdfsvf</h1>
-  <h1>asfsdvdfsvf</h1>
-  <i class="fa-solid fa-bars"></i>
+
+  <p>If you click on me, I will disappear.</p>
+  <p>Click me away!</p>
+  <p>Click me too!</p>
+  <script>
+    $(document).ready(function () {
+      $("p").click(function () {
+        $(this).hide();
+      });
+    });
+  </script>
   <script src="script.js"></script>
+  <script src="jquery.js"></script>
 </body>
 
 </html>
