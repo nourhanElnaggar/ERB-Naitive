@@ -1,8 +1,9 @@
-@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-brands-400.woff2");
-@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-regular-400.woff2");
-@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-solid-900.woff2");
-@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-v4compatibility.woff2");
 @import "_variables";
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
 @font-face {
   font-family: "Inter", sans-serif;
   src: url("assets/fonts/RobotoSerif-VariableFont_GRAD_opsz_wdth_wght.woff") format("woff");
