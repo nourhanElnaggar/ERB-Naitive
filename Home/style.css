@@ -1,1 +1,12 @@
-/*# sourceMappingURL=style.css.map */
+@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-brands-400.woff2");
+@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-regular-400.woff2");
+@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-solid-900.woff2");
+@import url("../assets/fontawesome-free-6.3.0-web/webfonts/fa-v4compatibility.woff2");
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("assets/fonts/RobotoSerif-VariableFont_GRAD_opsz_wdth_wght.woff") format("woff");
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #6aafe6;
+}/*# sourceMappingURL=style.css.map */
